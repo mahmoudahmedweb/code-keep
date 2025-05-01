@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/code-keep/static/css/main.5cee2567.css",
+    "main.js": "/code-keep/static/js/main.b2afaf7e.js",
+    "index.html": "/code-keep/index.html",
+    "main.5cee2567.css.map": "/code-keep/static/css/main.5cee2567.css.map",
+    "main.b2afaf7e.js.map": "/code-keep/static/js/main.b2afaf7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cee2567.css",
+    "static/js/main.b2afaf7e.js"
+  ]
+}
