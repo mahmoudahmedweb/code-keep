@@ -1,0 +1,58 @@
+/* Syntax highlighting theme */
+.syntax-highlight {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  counter-reset: line;
+}
+
+.syntax-highlight code {
+  display: block;
+  white-space: pre;
+}
+
+.syntax-highlight .comment {
+  color: #000000;
+}
+
+.syntax-highlight .keyword {
+  color: #569cd6;
+  font-weight: bold;
+}
+
+.syntax-highlight .string {
+  color: #ce9178;
+}
+
+.syntax-highlight .number {
+  color: #b5cea8;
+}
+
+.syntax-highlight .constant {
+  color: #9cdcfe;
+}
+
+/* Language-specific overrides */
+.syntax-highlight.javascript .keyword {
+  color: #d19a66;
+}
+
+.syntax-highlight.html .keyword {
+  color: #569cd6;
+}
+
+.syntax-highlight.html .string {
+  color: #ce9178;
+}
+
+.syntax-highlight.css .keyword {
+  color: #569cd6;
+}
+
+.syntax-highlight.css .string {
+  color: #ce9178;
+}
